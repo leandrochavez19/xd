@@ -1,0 +1,110 @@
+body{
+    transform: translate(300px,80px);
+
+}
+
+section {
+    display: flex;
+    
+}
+.primera {
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 1200px;
+    background-color: blanchedalmond;
+  
+}
+.figura1{
+   
+    width: 200px;
+    height: 200px;
+    background-color: rgb(228, 129, 42);
+    clip-path: polygon(0% 25%,100% 25%,100% 75%,50% 100%,0% 75%,0% 25px);
+    transform: translate(0px,-50px);
+}
+img {
+    padding: 0px;
+    transform: translate(50px,-180px);
+    clip-path: polygon(50% 0%, 100% 24%, 100% 74%, 75% 100%, 25% 100%, 0 70%, 0 25%);
+}
+ul{
+   list-style: none; 
+}
+.contacto {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+h1,h3{
+transform: translate(50px,-0px);
+}
+h2{
+    text-align: center;
+}
+p {
+    font-size: 15px;
+    transform: translate(20px, 0px);
+    font-family: Arial;
+    text-align: justify;
+}
+
+.texto {
+    font-size: 15px;
+    margin-right: 50px;
+}
+
+.a {
+    font-size: 13px;
+    transform: translate(20px, 0px);
+}
+
+hr {
+    transform: translate(0px, -25px);
+    width: 260px;
+    color: rgb(0, 0, 0);
+    background-color: black;
+}
+
+
+/* aca empieza la otra mitad */
+.segundo {
+
+    padding: 1px;
+    margin: 25px;
+    transform: translate(-25px, -25px);
+    width: 630px;
+    height: 1200px;
+    background-color: blanchedalmond;
+}
+.figura2{
+    width: 100px;
+    height: 150px;
+    background-color: rgb(228, 129, 42);
+    clip-path: polygon(0% 25%,100% 25%,100% 75%,50% 100%,0% 75%,0% 25px);
+    transform: translate(530px,-175px);
+}
+.figura3{
+    
+        width: 70px;
+        height: 90px;
+        background-color: rgb(80, 75, 71);
+        clip-path: polygon(0% 25%,100% 25%,100% 75%,50% 100%,0% 75%,0% 25px);
+        transform: translate(480px,-310px);   
+}
+.lista {
+    transform: translate(40px, 10px);
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.linea hr{
+    transform: translate(-60px,-5px);
+    width: 500px;
+    height: 5px;
+    background-color: black;
+}
+.titulo2 hr{
+    width: 500px;
+    height: 5px;
+    background-color: black;
+  transform: translate(-60px,5px);
+
+}
